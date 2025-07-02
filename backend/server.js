@@ -19,7 +19,7 @@ const app = express();
 
 // CORS configuration
 const corsOptions = {
-  origin: ['https://vin2growfinal-admin.onrender.com', 'http://localhost:5173'], // Allow both local frontend URLs
+  origin: ['https://vin2growfinal-admin.onrender.com', 'https://vin2growfinal.onrender.com'], // Allow both local frontend URLs
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'PATCH'],
   allowedHeaders: ['Content-Type', 'Authorization']
